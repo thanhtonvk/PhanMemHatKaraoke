@@ -16,6 +16,9 @@
         android:theme="@style/Theme.PhanMemHatKaraoke"
         tools:targetApi="31">
         <activity
+            android:name=".QuanLyTheLoaiActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdminActivity"
             android:exported="false" />
         <activity
